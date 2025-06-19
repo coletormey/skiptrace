@@ -61,28 +61,11 @@ item_list = {
 		false,
 	),
 	
-	fist : new create_item(
-		"your fists",
-		"just me",
-		pointer_null,
-		false,
-		5,
-		spr_player_down_fist_HB,
-		spr_player_left_fist_HB,
-		spr_player_right_fist_HB,
-		spr_player_up_fist_HB,
-		0,
-		ITEM_TYPE.PERMANENT_WEAPON,
-		pointer_null,
-		pointer_null,
-		false,
-	),
-
-	/*
-	gem1 : new create_item(
+	
+	gem_1 : new create_item(
 		"1 Gem",
 		"1 Gem",
-		spr_gem1,
+		spr_gem_1,
 		false,
 		0,
 		pointer_null,
@@ -95,7 +78,7 @@ item_list = {
 		pointer_null,
 		false,
 	),
-	
+	/*
 	sword1 : new create_item(
 		"Short Sword",
 		"It's not long, it's short.",
@@ -145,6 +128,23 @@ item_list = {
 		pointer_null,
 		pointer_null,
 		false, 
+	),
+	
+	fist : new create_item(
+		"your fists",
+		"just me",
+		pointer_null,
+		false,
+		5,
+		spr_player_down_fist_HB,
+		spr_player_left_fist_HB,
+		spr_player_right_fist_HB,
+		spr_player_up_fist_HB,
+		0,
+		ITEM_TYPE.PERMANENT_WEAPON,
+		pointer_null,
+		pointer_null,
+		false,
 	),
 	*/
 }
