@@ -23,7 +23,7 @@ repeat(_instancesNumeber) {
 	inst = _depthGrid[# 0, yy];
 	// draw yourself
 	with (inst) {
-		/*if (room == room_inventoryScreen) {   do nothin   }
+		/*if (room == room_inventoryScreen_1) {   do nothin   }
 		else */
 		{event_perform(ev_draw, 0);}
 	}

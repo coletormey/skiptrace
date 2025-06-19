@@ -36,6 +36,7 @@ canTeleport = true;
 can_accept_input = true;
 isUsingEntrance = false;
 isInActiveCutscene = false;
+is_viewing_inventory = false;
 
 // timer values
 action_input_delay_timer = 18;

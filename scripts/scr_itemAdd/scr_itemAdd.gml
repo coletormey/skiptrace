@@ -99,7 +99,7 @@ function scr_itemAdd(_item, _type){
 				global.numberOfGems += _item.value;
 				break;
 			case ITEM_TYPE.COLLECTIBLE:
-				obj_itemManager.options_length++;
+				obj_itemManager.options_collectible_length++;
 			
 				// adds actual item to inventory
 				array_push(obj_itemManager.item_inventory, _item);
@@ -108,13 +108,15 @@ function scr_itemAdd(_item, _type){
 				
 				
 				var _itemPlacedInOptions = false;
-				for (var i = 0; i < 2; i++) {
-					for (var j = 0; j < 5; j++) {
-						if (obj_itemManager.option[i, j] == pointer_null 
+				for (var i = 0; i <= 2; i++) {
+					for (var j = 0; j <= 4; j++) {
+						
+						
+						if (obj_itemManager.option_collectible[i, j] == pointer_null 
 						and _itemPlacedInOptions == false) {
-							obj_itemManager.option[i, j] = _item;
-							obj_itemManager.option[i, j].currentMenuLevel = i;
-							obj_itemManager.option[i, j].currentMenuPosition = j;
+							obj_itemManager.option_collectible[i, j] = _item;
+							obj_itemManager.option_collectible[i, j].currentMenuLevel = i;
+							obj_itemManager.option_collectible[i, j].currentMenuPosition = j;
 							
 							_itemPlacedInOptions = true;
 						}

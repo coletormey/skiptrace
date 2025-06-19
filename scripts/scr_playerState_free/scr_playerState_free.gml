@@ -3,10 +3,11 @@ function scr_playerState_free(){
 #region //################## Player Movement: Begin ##################\\
 if (inventory_key) {
 	global.playerState = PLAYER_STATE.USING_MENU;
+	is_viewing_inventory = true;
 	obj_cameraManager.last_camera_info.x = camera_get_view_x(view_camera[0]);
 	obj_cameraManager.last_camera_info.y = camera_get_view_y(view_camera[0]);
 	obj_cameraManager.last_camera_info.last_room = room;
-	room_goto(room_inventoryScreen);
+	room_goto(room_inventoryScreen_1);
 }
 
 if (teleport_key and canTeleport) {

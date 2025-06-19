@@ -1,4 +1,7 @@
-if (room == room_inventoryScreen) {
+if (room == room_inventoryScreen_1
+	or room == room_inventoryScreen_2
+	or room == room_inventoryScreen_3) 
+{
 	
 	
 	up_key = keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W"));
@@ -8,20 +11,48 @@ if (room == room_inventoryScreen) {
 	select_key_main = keyboard_check_pressed(vk_enter);
 	select_key_secondary = keyboard_check_pressed(vk_space);
 	return_key = keyboard_check_pressed(vk_tab);
+	next_screen = keyboard_check_pressed(ord("E"));
+	prev_screen = keyboard_check_pressed(ord("Q"));
 	
 	
 	if (return_key) {
 		menu_level = 0;
 		position = 0;
-		//obj_ace.isViewingInventory = false;
+		obj_player.is_viewing_inventory = false;
 		var _prevRoom = obj_cameraManager.last_camera_info.last_room;
 		global.playerState = PLAYER_STATE.FREE;
 		room_goto(_prevRoom);
 	}
-
-	// store number of options in current menu
-	options_length = array_length(option[menu_level]);
-
+	
+	// controls for changing inventory screens
+	switch (room) {
+		case room_inventoryScreen_1: 
+			// store number of options in equipable items
+			options_length = array_length(option[menu_level]);
+			if (next_screen){
+				room_goto(room_inventoryScreen_2);
+			} else if (prev_screen) {
+				room_goto(room_inventoryScreen_3);
+			}
+			break;
+		case room_inventoryScreen_2: 
+			// store number of options in equipable items
+			options_length = array_length(option_collectible[menu_level]);
+			if (next_screen){
+				room_goto(room_inventoryScreen_3);
+			} else if (prev_screen) {
+				room_goto(room_inventoryScreen_1);
+			}
+			break;
+		case room_inventoryScreen_3: 
+			if (next_screen){
+				room_goto(room_inventoryScreen_1);
+			} else if (prev_screen) {
+				room_goto(room_inventoryScreen_2);
+			}
+			break;
+		default: break;
+	}
 
 	// NAVIGATE MENU 
 

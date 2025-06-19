@@ -49,3 +49,5 @@ ____________________________________________________________________________
 	Ace.SR and also research other methods of saving rooms, and how this 
 	works alongside creating save game files for saving and loading entire
 	game. Need to save rooms individually, and also save whole game.
+	
+	-*-*-*-::: Consult the same save/load video series from before to rewrite save load system
