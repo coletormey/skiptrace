@@ -1,0 +1,1 @@
+draw_sprite_ext(sprite_index, image_index, x, y, desc_textBox_width / sprite_width, desc_textBox_height / sprite_height, 0, c_white, 1);

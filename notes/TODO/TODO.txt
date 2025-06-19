@@ -1,0 +1,51 @@
+02/10/25: 
+
+1. set up walls and collision in order to begin testing ideas for 
+	player movement / ability
+xxxxxxxxxxxxxxx DONE!
+
+____________________________________________________________________________
+
+
+3/12/25: 
+
+1. Create state machine or equivalent to take away/give controls
+	to player in specific circumstances (i.e. take away movement 
+	(when textBox appears)
+xxxxxxxxxxxxxxx DONE!
+
+--- OTHER OBJECTIVES COMPLETED:
+		- basic NPC with collisions
+		- text box that can display text associated with specific 'id'
+			whether that be NPC or really any other object
+
+____________________________________________________________________________
+
+3/14/25:
+1. Reference ace.SR project for entrance triggers. 
+	Rework and simplify.
+	
+DONE! xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx DONE!
+
+____________________________________________________________________________
+
+6/16/25:
+1. Reference ace.SR project and figure out why collisions do not work properly after
+	pressing an action button. Right now, collisions work, and then after action press, 
+	upon collision detection, player stutters as if collision is detected, and then 
+	immediately disregarded, so instead of stopping player movement, collision detection 
+	just causes stutter in movement.
+	
+DONE! xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx DONE!
+
+		**** made sure to reset sprite_mask after changing it to 
+		corresponding hitbox sprite for the attack being used
+		
+____________________________________________________________________________
+
+6/17/25:
+1. Create save and load behavior such that when a room is exited
+	and re-entered, items do not respawn if not meant to. Compare with
+	Ace.SR and also research other methods of saving rooms, and how this 
+	works alongside creating save game files for saving and loading entire
+	game. Need to save rooms individually, and also save whole game.

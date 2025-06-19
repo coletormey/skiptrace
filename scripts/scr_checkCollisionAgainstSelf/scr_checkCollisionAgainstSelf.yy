@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_checkCollisionAgainstSelf",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_checkCollisionAgainstSelf",
+  "parent":{
+    "name":"Control",
+    "path":"folders/Player/Scripts/Control.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,63 @@
+GENERAL IDEA:
+
+	Gameplay surrounds player beginning with overwhelming powers and actions that cannot be undone.
+	Story branches based on actions taken, and player may attack/kill whomever they like. 
+	YOUR. ACTIONS. MEAN. SOMETHING. 
+	
+	Story begins at the start of life for Android player, where some misfire occurs of some sort,
+	and a human is killed. It is a traumatic experience, but your creator(s) assure you in spite 
+	of all the backlash, that this misfortune was not your fault. This used to illustrate the 
+	importance and finality of player's actions. Will be reinforced somehow in this beginning stage
+	to the point that it is very clear to the person playing the game that there are undoable actions 
+	that have very real consequences in the world. 
+	
+	Story will progress and there will be characters whose powers 
+	are on the player's level, but low level/power NPCs will still exist in this same world. 
+	
+		* Like in GBC LoZ games, where different mounts have different powers and dialogue/story 
+		associated with them, there can exist many paths by which you can achieve certain goals,
+		like the following simplified pathing for the over arching story:
+		
+		
+		(***)   (***)    [Possible Endings of Chapter/Specific story)
+		/ \       / \
+	   /  \      /   \
+	 (*)  (*)  (*)  (*)  [Different pre-Ending setups that can lead to the same, or different Endings]
+	 \    \     /   /
+	   \  \   /   /
+	     \ \ /  /
+		  (****)         [Initial starting point for chapter/story element]
+		  
+	
+		* The "pre-Ending" section in the middle may represent three different characters/objectives
+		that may assist you or lead you to the next level/layer/step towards the ending of the 
+		chapter/story/side-objective at hand. 
+			
+			---These different "pre-Endings" can exist such that at least one of them cannot be failed,
+			so in the event the player behaves/acts in a way that makes all other paths to 
+			a **NECESSARY** goal unusable, the main plot can be pushed along to a next step, whether 
+			to the benefit or detriment to the player. 
+			
+			
+			
+			
+			
+			
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+	GAMEPLAY
+	
+	
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+	4 different elemental powers where player effectively takes the form of 1 of 4 elements at a time
+	(potentially a comination of them in the future) and has powers and behaviors specific for each 
+	element. Can equip two at a time in one of two element slots, but in the start they are used 
+	independently:
+	
+		1. Air - can become visible blowing gust of wind that darts in a certain direction. Acts
+		similar to a quick dash, and while moving like this, player cannot be harmed. Used as a dodge or
+		as a way to cross small gaps otherwise could not pass.
+		2. Earth - sd

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_playerState_screen_transition",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_playerState_screen_transition",
+  "parent":{
+    "name":"Control",
+    "path":"folders/Player/Scripts/Control.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
