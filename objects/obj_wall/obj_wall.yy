@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Walls",
-    "path":"folders/Walls.yy",
+    "path":"folders/Interactive Game Objects/Objects/Walls.yy",
   },
   "parentObjectId":null,
   "persistent":false,

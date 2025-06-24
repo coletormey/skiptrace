@@ -60,6 +60,7 @@ if (x_speed == 0 and y_speed == 0) {
 	else {image_speed = 0;}
 }
 sprite_index = sprite[face];
+mask_index = sprite[face];
 
 // action key presses
 if (action_right_key) {

@@ -37,6 +37,10 @@ function scr_action(){
 	var hitByAttackNow = ds_list_create();
 	var hits = instance_place_list(x, y, obj_enemy_parent, hitByAttackNow, false);
 	
+	var breakableObjAttackNow = ds_list_create();
+	var breakableObjHits = instance_place_list(x, y, obj_breakable_object, breakableObjAttackNow, false);
+	
+	
 	if (hits > 0) {
 		for (var i = 0; i < hits; i++) {
 			// if this instance has not yet been hit by attack
@@ -54,10 +58,27 @@ function scr_action(){
 			}
 		}
 	}
+	if (breakableObjHits > 0) {
+		for (var i = 0; i < breakableObjHits; i++) {
+			// if this instance has not yet been hit by attack
+			var hitID = breakableObjAttackNow[| i];
+			if (ds_list_find_index(hit_by_player_attack, hitID) == -1) {
+				ds_list_add(hit_by_player_attack, hitID);
+				with (hitID) {
+					hitID.hasBeenHit = true;
+					hitID.collides_with_player = false;
+				}
+			}
+		}
+	}
+	
+	
+	
+	
 	
 	ds_list_destroy(hitByAttackNow);
-		
-
+	ds_list_destroy(breakableObjAttackNow);
+	
 	if (scr_animation_end()) {
 		face = direction_of_action;
 		right_key = false;
@@ -69,3 +90,6 @@ function scr_action(){
 		global.playerState = PLAYER_STATE.FREE;
 	}
 }
+	
+	
+	

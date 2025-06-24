@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Sprites",
-    "path":"folders/Walls/Sprites.yy",
+    "path":"folders/Interactive Game Objects/Objects/Walls/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

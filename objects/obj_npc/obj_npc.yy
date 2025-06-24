@@ -12,11 +12,11 @@
   "overriddenProperties":[],
   "parent":{
     "name":"NPCs",
-    "path":"folders/NPCs.yy",
+    "path":"folders/Interactive Game Objects/Objects/NPCs.yy",
   },
   "parentObjectId":{
-    "name":"obj_depthObj_parent",
-    "path":"objects/obj_depthObj_parent/obj_depthObj_parent.yy",
+    "name":"obj_base_game_object",
+    "path":"objects/obj_base_game_object/obj_base_game_object.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

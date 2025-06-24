@@ -1,3 +1,5 @@
+event_inherited();
+
 var _inst_NPC = id;
 
 if (((position_meeting(x, y, obj_player) and obj_player.face == UP)

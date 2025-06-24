@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"NPCs",
-    "path":"folders/NPCs.yy",
+    "path":"folders/Interactive Game Objects/Objects/NPCs.yy",
   },
   "parentObjectId":{
     "name":"obj_npc",
