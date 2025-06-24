@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_depthObj_parent",
+  "%Name":"obj_destroyed_object",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_depthObj_parent",
+  "name":"obj_destroyed_object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Depth Sorter",
-    "path":"folders/Depth Sorter.yy",
+    "name":"Breakable Objects",
+    "path":"folders/Interactive Game Objects/Objects/Breakable Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

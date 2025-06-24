@@ -6,7 +6,10 @@ life_time = 3 * room_speed;
 
 visibilityHasChanged = false;
 
-alarm[0] = life_time;
+is_collectible = false;
+
+
+alarm[11] = 0.25 * room_speed;
 
 
 // used for saving item alarm stage when saving/loading

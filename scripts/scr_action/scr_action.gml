@@ -67,6 +67,8 @@ function scr_action(){
 				with (hitID) {
 					hitID.hasBeenHit = true;
 					hitID.collides_with_player = false;
+					hitID.destroyed = true;
+					scr_random_drop();
 				}
 			}
 		}

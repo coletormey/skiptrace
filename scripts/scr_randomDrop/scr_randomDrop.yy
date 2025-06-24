@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_random_drom",
+  "%Name":"scr_randomDrop",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_random_drom",
+  "name":"scr_randomDrop",
   "parent":{
-    "name":"Inventory",
-    "path":"folders/Item Management/Inventory.yy",
+    "name":"Item Management",
+    "path":"folders/Item Management.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

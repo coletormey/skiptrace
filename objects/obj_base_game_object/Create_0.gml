@@ -1,3 +1,5 @@
+event_inherited();
+
 component_list = [];
 collides_with_player = false;
 is_breakable = false;
